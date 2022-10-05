@@ -9,4 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 class ClientTariff extends Model
 {
     use HasFactory;
+
+    protected $table = 'client_tariff';
 }
